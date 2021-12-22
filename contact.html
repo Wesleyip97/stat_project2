@@ -1,59 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>index.html</title>
+    <link rel="stylesheet" href="css/test.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <LI class="Hoofd">Wesley Ip</LI>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="over mij.html">over mij</a></li>
-            <li><a href="Hobby's.html">Hobby's</a></li>
-            <li><a href="Ervaringen.html">Ervaringen</a></li>
-            <LI class="active"><a href="contact.html">contact</a></LI>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blauw mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Wesley Ip</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href=index.html>Home</a>
+                    <a class="nav-link" href="over mij.html">over mij</a>
+                    <a class="nav-link" href="Hobby's.html">Hobby's</a>
+                    <a class="nav-link" href="Ervaringen.html">Ervaring</a>
+                    <a class="nav-link" href="contact.html">contact</a>
+                </div>
+            </div>
+        </div>
     </nav>
 
+    <Section class="container">
+        <section class="row">
+            <h1>
+                Wilt u me Contacteren?
+            </h1>
+            <p>Hieronder kunt u mijn contactgegevens terugvinden.
+            </p>
+        </section>
+        <section class="row mt-5">
+            <section class="col-md">
+                <h3>Adres</h3>
+                <p>Molenstraat 123, 1234 Geel</p>
+            </section>
+            <section class="col-md">
+                <h3>E-mail</h3>
+                <p>ipwesley@hotmail.com</p>
+            </section>
+            <section class="col-md">
+                <h3>GSM nummer</h3>
+                <p>04/12 34 56 78</p>
+            </section>
+        </section>
+        <SEction class="row mt-3">
+            <h3>Hebt u nog vragen?</h3>
+            <section class="col-md">
+                <P>Dan kunt je iets laten weten via deze formulier:</P>
+            </section>
+            <section class="col-md">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email adres</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">wachtwoord</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputonderwerp" class="form-label">onderwerp</label>
+                        <input type="onderwerp" class="form-control" id="exampleInputonderwerp">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Dringend?</label>
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">bericht</span>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </section>
 
+        </SEction>
+    </Section>
 
-    <h1>Wilt u me Contacteren?</h1>
-    <p>Hieronder kunt u mijn contactgegevens terugvinden</p>
-
-    <h2>adres</h2>
-    <address>Molenstraat 52, 2850 Boom</address>
-
-    <H2>E-mail</H2>
-    <p>ipwesley@hotmail.com</p>
-    <H2>GSM</H2>
-    <p>04 86 12 34 56</p>
-
-    <H2>Sociale media's</H2>
-    <a href="https://www.facebook.com/">facebook</a>
-
-    <h2>Hebt u nog vragen?</h2>
-    <p>Hieronder vindt u een formulier waar u uw vraag kan stellen.</p>
-    <form action="/action_page.php" method="post">
-        <div>
-            <label>Voornaam</label><br>
-            <input type="text" name="firstname" placeholder="Voornaam" required>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mb-blauw">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="text-muted">© Wesley Ip</span>
         </div>
-        <div>
-            <label>e-mail</label><br>
-            <input type="email" name="e-mail" placeholder="e-mailadres" required>
-        </div>
-        <div>
-            <label>onderwerp</label><br>
-            <input type="text" name="onderwerp" placeholder="onderwerp" required><br>
-            <textarea placeholder="Wat is je vraag?" rows="5" required></textarea>
-        </div>
-        <input type="submit" value="Verzenden">
-    </form>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <a href="https://www.facebook.com/wesley.ip.92/" target="_blank">
+                <h3><i class="bi bi-facebook"></i></h3>
+            </a>
+            <a href="https://www.linkedin.com/in/wesley-ip-578451167/" target="_blank">
+                <h3><i class="bi bi-linkedin"></i></h3>
+            </a>
+        </ul>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>

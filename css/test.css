@@ -1,0 +1,25 @@
+.bg-blauw {
+    background-color: #315d79;
+}
+
+.btn-primary {
+    background-color: #315d79;
+}
+
+.wit {
+    background-color:  #d9d9d9;
+}
+
+.alert-info {
+    background-color: #7e8d7f;
+    color: white;
+}
+
+.grijs {
+    background-color: #7e8d7f;
+    color: #d9d9d9;
+}
+
+.max {
+    height: 500px;
+}

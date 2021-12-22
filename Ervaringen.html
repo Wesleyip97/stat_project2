@@ -1,71 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>Ervaring.html</title>
+    <link rel="stylesheet" href="css/test.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <LI class="Hoofd">Wesley Ip</LI>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="over mij.html">over mij</a></li>
-            <li><a href="Hobby's.html">Hobby's</a></li>
-            <LI class="active"><a href="Ervaringen.html">Ervaringen</a></LI>
-            <li><a href="contact.html">contact</a></li>
-
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blauw">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Wesley Ip</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href=index.html>Home</a>
+                    <a class="nav-link" href="over mij.html">over mij</a>
+                    <a class="nav-link" href="Hobby's.html">Hobby's</a>
+                    <a class="nav-link active" href="Ervaringen.html">Ervaring</a>
+                    <a class="nav-link" href="contact.html">contact</a>
+                </div>
+            </div>
+        </div>
     </nav>
 
-    <H1>Ervaringen</H1>
-    <p>Hier kunt redelijk veel informatie over mij terugvinden. Ik ben een student programmeren op de Thomas more
-        hogeschool Kempen. Deze opleiding volg ik in het avondonderwijs. Overdag Werk ik fulltime als Medisch
-        Labotechnicus in het Heilig Hart ziekenhuis
-        in Lier.</p>
+    <section class="container">
+        <section class="row">
+            <section class="col-sm-3 grijs">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action grijs" href="#list-item-1"><strong>Ervaringen</strong></a>
+                    <a class="list-group-item list-group-item-action grijs" href="#list-item-2"><strong>2011</strong></a>
+                    <a class="list-group-item list-group-item-action grijs" href="#list-item-3"><strong>2016</strong></a>
+                    <a class="list-group-item list-group-item-action grijs" href="#list-item-4"><strong>2017</strong></a>
+                    <a class="list-group-item list-group-item-action grijs" href="#list-item-5"><strong>2020</strong></a>
+                    <a class="list-group-item list-group-item-action grijs" href="#list-item-6"><strong>2021</strong></a>
+                    <a class="list-group-item list-group-item-action grijs" href="#list-item-7"><strong>Toekomst</strong></a>
+                </div>
+            </section>
 
-    <h2>2011</h2>
-    <P>Als zoon van horecafamilie was het evident dat ik in de zaak zal bijspringen wanneer ik er klaar voor was. Dat
-        was in mijn geval in 2011. Ik stond toen in voor de bestellingen op te nemen en de bediening.</P>
-    <img src="afbeeldingen/china keuken.png" alt="Logo China Keuken">
 
-    <h2>2016</h2>
-    <P>In 2016, ben ik afgestudeerd als apotheek assistenten. In de zomers tijdens mijn opleiding en nadien, Heb ik in
-        de apotheek mijn vakanties doorgebracht als jobstudent.</P>
-    <img src="afbeeldingen/APOTHEKERSKRUIS.jpg" alt="APOTHEKERSKRUIS">
 
-    <h2>2017</h2>
-    <p>Wegens een verhuis, was het niet meer mogelijk om nog te helpen in de apotheek. Hierdoor zocht ik een nieuwe
-        sector waarbij ik mijn kennis en ervaring kan uitbreiden. Het is een zeer wisselvallige jaar geweest maar
-        uiteindelijk ben ik in 3 bedrijven
-        begonnen. Mijn ouders hebben in 2017 een frituur begonnen. Zoals bij onze vorige familiezaak, Help ik een handje
-        mee als het nodig is.</p>
-    <img src="afbeeldingen/Friet n chips.png" alt="logo Fritnchips">
-    <p>In de zomer ben ik bij Nedcargo begonnen. In deze logistieke bedrijf controleerde ik de paletten die moesten
-        vertrekken naar de verschillende bedrijven. Het was een leuke nieuwe ervaring om ook de logistieke sector te
-        leren kennen.</p>
+            <section class="col-sm-9">
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                    <h2 class="mb-3 mt-5" id=" list-item-1 ">Ervaringen</h2>
+                    <p>Hier kunt redelijk veel informatie over mij terugvinden. Ik ben een student programmeren op de Thomas more hogeschool Kempen. Deze opleiding volg ik in het avondonderwijs. Overdag Werk ik fulltime als Medisch Labotechnicus in het Heilig
+                        Hart ziekenhuis in Lier.
+                    </p>
+                    <h4 class="mt-5" id="list-item-2 ">2011</h4>
+                    <section class="container">
+                        <section class="row mb-2 ">
+                            <section class="col-md-3 ">
+                                <img src="img/china keuken (Klein).png " alt="logo ChinaKeuken ">
+                            </section>
+                            <section class="col-md-9 ">
+                                <p>
+                                    Als zoon van horecafamilie was het evident dat ik in de zaak zal bijspringen wanneer ik er klaar voor was. Dat was in mijn geval in 2011. Ik stond toen in voor de bestellingen op te nemen en de bediening.
+                                </p>
+                            </section>
+                        </section>
+                    </section>
+                    <h4 class="mt-5" id="list-item-3 ">2016</h4>
+                    <section class="container">
+                        <section class="row mb-2">
+                            <section class="col-md-9">
+                                <p>In 2016, ben ik afgestudeerd als apotheek assistenten aan het Kardinaal Van Rooy Instituut. Tijdens mijn opleiding en ook nadien, Heb ik in de apotheek gestaan waar ik stage heb gedaan. Dit was zeer leerzaam. Door deze
+                                    opleiding ben ik ook echt gefacineerd geraakt door de medische en farmaceutische sector.
+                                </p>
+                            </section>
+                            <section class="col-md-3 ">
+                                <img src="img/APOTHEKERSKRUIS (Klein).jpg" alt="APOTHEKERSKRUIS ">
+                            </section>
+                        </section>
+                    </section>
+                    <h4 class="mt-5" id="list-item-4 ">2017</h4>
+                    <section class="container">
+                        <section class="row mb-2 ">
+                            <section class="col-md-3 ">
+                                <img src="img/Friet n Chips (Klein).jpg " alt="logo Friet 'n Chips">
+                            </section>
+                            <section class="col-md-9 ">
+                                <p class="mb-4">
+                                    Wegens een verhuis, was het niet meer mogelijk om nog te helpen in de apotheek. Hierdoor zocht ik een nieuwe sector waarbij ik mijn kennis en ervaring kan uitbreiden. Het is een zeer wisselvallige jaar geweest maar uiteindelijk ben ik in 3 bedrijven begonnen.
+                                    Mijn ouders hebben in 2017 een frituur begonnen. Zoals bij onze vorige familiezaak, Help ik een handje mee als het nodig is.
+                                </p>
+                                <P>In de zomer ben ik bij Nedcargo begonnen. In deze logistieke bedrijf controleerde ik de paletten die moesten vertrekken naar de verschillende bedrijven. Het was een leuke nieuwe ervaring om ook de logistieke sector te leren
+                                    kennen. Buiten nedcargo ben ik ook begonnen bij de doe het zelf zaak: Hubo. Hier heb vooral in de winkel gewerkt. Het was weer een nieuwe wereld die open ging. 2020
+                                </P>
+                            </section>
+                        </section>
+                    </section>
+                    <h4 class="mt-5" id="list-item-5 ">2020</h4>
+                    <section class="container">
+                        <section class="row mb-2">
+                            <section class="col-md-9">
+                                <p>In 2020 werd de wereld opgeschrikt door de COVID-19 pandemie. Hierdoor hebben verschillende ziekenhuizen te kampen met een personeelstekorten. Daarom ben ik begonnen in het ziekenhuis van Lier als coronatest uitvoerden.
+                                    Wanneer de verpleegkundige de wissers hebben afgenomen, komt het bij mij terecht. Ik bracht deze stalen tot bij de PCR toestellen en voer de analyse uit. Ik heb ook in dit ziekenhuis mijn stage gedaan.
+                                </p>
+                            </section>
+                            <section class="col-md-3 ">
+                                <img src="img/96 well (Klein).jpg" alt="96 well">
+                            </section>
+                        </section>
+                    </section>
+                    <h4 class="mt-5" id="list-item-6 ">2021</h4>
+                    <section class="container">
+                        <section class="row mb-2 ">
+                            <section class="col-md-3 ">
+                                <img src="img/microbiologie.jpg" alt="Werken in het labo">
+                            </section>
+                            <section class="col-md-9 ">
+                                <p class="mb-4">
+                                    In 2020 werd de wereld opgeschrikt door de COVID-19 pandemie. Hierdoor hebben verschillende ziekenhuizen te kampen met een personeelstekorten. Daarom ben ik begonnen in het ziekenhuis van Lier als coronatest uitvoerden. Wanneer de verpleegkundige de wissers
+                                    hebben afgenomen, komt het bij mij terecht. Ik bracht deze stalen tot bij de PCR toestellen en voer de analyse uit. Ik heb ook in dit ziekenhuis mijn stage gedaan.
+                                </p>
+                            </section>
+                        </section>
+                    </section>
+                    <h4 class="mt-5" id="list-item-5 ">Toekomst</h4>
+                    <p class="mb-4">Ik weet niet wat de toekomst brengt, maar ik ben altijd bereid om nieuwe dingen te ontdekken.
 
-    <p>Buiten nedcargo ben ik ook begonnen bij de doe het zelf zaak: Hubo. Hier heb vooral in de winkel gewerkt. Het was
-        weer een nieuwe wereld die open ging. </p>
-    <h2>2020</h2>
-    <P>In 2020 werd de wereld opgeschrikt door de COVID-19 pandemie. Hierdoor hebben verschillende ziekenhuizen te
-        kampen met een personeelstekorten. Daarom ben ik begonnen in het ziekenhuis van Lier als coronatest uitvoerden.
-        Wanneer de verpleegkundige
-        de wissers hebben afgenomen, komt het bij mij terecht. Ik bracht deze stalen tot bij de PCR toestellen en voer
-        de analyse uit. Ik heb ook in dit ziekenhuis mijn stage gedaan.</P>
-    <img src="afbeeldingen/96 well.jpg" alt="96 Wellplaat voor covid">
+                    </p>
 
-    <h2>2021</h2>
-    <P>In 2021 ben ik afgestudeerd en ook direct begonnen in het ziekenhuis. Als MLT voer ik verschillende analyses uit
-        om de patiënten en artsen verder te kunnen helpen met de diagnoses en opvolging van de aandoening.</P>
-    <img src="afbeeldingen/microbiologie.jpg" alt=" enten van stalen">
-    <p>Als bezige bij en een enorme fascinaties voor computers, ben ik ook begonnen aan de avondopleiding programmeren
-        in de thomas more hogeschool. </p>
-    <h2>Toekomst</h2>
-    <p>Ik weet niet wat de toekomst brengt, maar ik ben altijd bereid om nieuwe dingen te ontdekken.</p>
+
+
+
+
+                </div>
+            </section>
+        </section>
+
+    </section>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mb-blauw ">
+        <div class="col-md-4 d-flex align-items-center ">
+            <a href="/ " class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 ">
+                <svg class="bi " width="30 " height="24 "><use xlink:href="#bootstrap "></use></svg>
+            </a>
+            <span class="text-muted ">© Wesley Ip</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex ">
+            <a href="https://www.facebook.com/wesley.ip.92/ " target="_blank ">
+                <h3><i class="bi bi-facebook "></i></h3>
+            </a>
+            <a href="https://www.linkedin.com/in/wesley-ip-578451167/ " target="_blank ">
+                <h3><i class="bi bi-linkedin "></i></h3>
+            </a>
+        </ul>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+
+
 
 </body>
 
